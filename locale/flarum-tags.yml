@@ -27,7 +27,7 @@ flarum-tags:
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       delete_tag_button: Borrar Etiqueta
-      delete_tag_confirmation: "¿Está seguro de que quiere eliminar esta etiqueta? Las discusiones de la etiqueta NO serán eliminadas."
+      delete_tag_confirmation: "¿Estás seguro de que quieres eliminar esta etiqueta? Las discusiones de la etiqueta NO serán eliminadas."
       description_label: Descripción
       hide_label: Ocultar de la portada
       name_label: => flarum-tags.ref.name
@@ -51,9 +51,9 @@ flarum-tags:
     tag_settings:
       range_separator_text: " a "
       required_primary_heading: Número de etiquetas principales requeridas
-      required_primary_text: Introduzca el numero mínimo y máximo de etiquetas principales que pueden ser aplicadas a una discusión.
+      required_primary_text: Introduce el numero mínimo y máximo de etiquetas principales que pueden ser aplicadas a una discusión.
       required_secondary_heading: Número de etiquetas secundarias requeridas
-      required_secondary_text: Introduzca el número mínimo y máximo de etiquetas secundarias que pueden ser aplicadas a una discusión.
+      required_secondary_text: Introduce el número mínimo y máximo de etiquetas secundarias que pueden ser aplicadas a una discusión.
       title: Configuración de Etiquetas
 
     # These translations are used in the Tags page.
@@ -69,11 +69,11 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Elija una etiqueta principal|Elija {count} etiquetas principales"
-      choose_secondary_placeholder: "Elija una etiqueta más|Elija {count} etiquetas más"
+      choose_primary_placeholder: "Elige una etiqueta principal|Elige {count} etiquetas principales"
+      choose_secondary_placeholder: "Elige una etiqueta más|Elige {count} etiquetas más"
       edit_title: "Editar las etiquetas para '{title}'"
       submit_button: => core.ref.okay
-      title: Elija las etiquetas para su discusión
+      title: Elige las etiquetas para su discusión
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:

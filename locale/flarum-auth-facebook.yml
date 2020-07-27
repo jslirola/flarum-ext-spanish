@@ -28,4 +28,4 @@ flarum-auth-facebook:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_facebook_button: Conéctese con Facebook
+      with_facebook_button: Conéctate con Facebook

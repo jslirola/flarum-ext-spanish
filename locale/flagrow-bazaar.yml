@@ -41,9 +41,9 @@ flagrow-bazaar:
                     use_cron_for_tasks:
                         label: Cronjobs
                         description: >
-                           Al permitir que los cronjobs procesen tareas de Bazaar, estos procesos
-                           Es menos probable que se agote el tiempo de espera. Por favor, tenga en cuenta que necesita poder
-                           configure el cronjob, consulte <a>the wiki</a>.
+                            Al permitir que los cronjobs procesen tareas de Bazaar, estos procesos
+                            Es menos probable que se agote el tiempo de espera. Por favor, tenga en cuenta que necesita poder
+                            configure el cronjob, consulte <a>the wiki</a>.
                         toggle: Usa crons para el procesamiento de tareas
             connect-bazaar:
                 title: Conectar
@@ -62,9 +62,9 @@ flagrow-bazaar:
                 php-memory_limit:
                     title: Limite de memoria
                     description: >
-                      Recomendamos permitir que PHP use al menos {required} de memoria, su php.ini actualmente permite {limit}.
-                      Aunque intentamos aumentar el límite de memoria durante el tiempo de ejecución, el éxito depende de su entorno de alojamiento.
-                      Para más información, consulte <a> la wiki </a>.
+                        Recomendamos permitir que PHP use al menos {required} de memoria, su php.ini actualmente permite {limit}.
+                        Aunque intentamos aumentar el límite de memoria durante el tiempo de ejecución, el éxito depende de su entorno de alojamiento.
+                        Para más información, consulte <a> la wiki </a>.
         page:
             state:
                 no_results_available: >

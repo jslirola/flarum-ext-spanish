@@ -27,12 +27,12 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "A {username} le gustó su publicación|A {username} les gustó su publicación"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "A {username} le gustó tu publicación|A {username} les gustó tu publicación"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
       like_link: Me gusta
-      liked_by_self_text: "A {users} le gusta esto.|A {users} les gusta esto."
+      liked_by_self_text: "A {users} te gusta esto.|A {users} os gusta esto."
       liked_by_text: "A {users} le gusta esto.|A {users} les gusta esto."
       others_link: => core.ref.some_others
       unlike_link: Ya no me gusta
@@ -44,4 +44,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: A alguien le gusta su publicación
+      notify_post_liked_label: A alguien le gusta tu publicación
